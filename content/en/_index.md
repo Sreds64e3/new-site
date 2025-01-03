@@ -93,32 +93,133 @@ sections:
     design:
       columns: "1"
 
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
+
+<style>
+  details summary {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #1a73e8; /* Blue color for the link */
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+    display: inline; /* Display on the same line */
+  }
+
+  details summary:hover {
+    color: #0c59b3; /* Darker blue when hovered */
+  }
+
+  details summary::-webkit-details-marker {
+    display: none; /* Hides the arrow on WebKit-based browsers */
+  }
+
+  details summary::marker {
+    display: none; /* Hides the arrow in other browsers */
+  }
+
+  details {
+    display: inline; /* Make the details element inline */
+  }
+</style>
+
+
+## Publikationen
+
+### [Peer-Reviewed](publication/burst-suppression/index.html)
+**Authors:**
+- [Dolezal Eugen R.](authors/admin/index.html), / Windegger, Moritz: *Ausweg oder Irrweg? Ein Versuch über die Bedeutung von durch Technobilder gestützten Narrativen in der existenziellen Langeweile*, in: *LIMINA - Grazer theologische Perspektiven* 5 / H. 1 (2022) 200–222.
+- [Dolezal Eugen R.](authors/admin/index.html), / Windegger, Moritz: *KI – Künstler oder Werkzeug? Grenzfindungsversuch maschineller Intelligenz hinsichtlich der Schaffung von Kunstwerken*, in: *LIMINA - Grazer theologische Perspektiven* 3 / H. 2 (2020) 217–235.
+
+[DOI](https://doi.org/10.25364/17.5:2022.1.9) <details>
+<summary>Cite</summary>
+
+```bibtex
+@article{dolezal2022,
+  author = {Dolezal Eugen R. and Windegger, Moritz},
+  title = {Ausweg oder Irrweg? Ein Versuch über die Bedeutung von durch Technobilder gestützten Narrativen in der existenziellen Langeweile},
+  journal = {LIMINA - Grazer theologische Perspektiven},
+  volume = {5},
+  number = {1},
+  year = {2022},
+  pages = {200--222},
+  doi = {https://doi.org/10.25364/17.5:2022.1.9}
+}
+```
+</details>
+
+---
+
+### [Nicht Peer-Reviewed](publication/multirat/index.html)
+**Authors:**
+- Dolezal, Eugen R: *Der überholte Mensch. Kritische Anfragen an Nick Bostroms Konzept von Superintelligenz*, Wiesbaden: Springer VS 2024
+
+[DOI](https://doi.org/10.25364/17.3:2020.2.11) <details>
+<summary>Cite</summary>
+
+```bibtex
+@article{dolezal2022,
+  author = {Dolezal Eugen R. and Windegger, Moritz},
+  title = {Ausweg oder Irrweg? Ein Versuch über die Bedeutung von durch Technobilder gestützten Narrativen in der existenziellen Langeweile},
+  journal = {LIMINA - Grazer theologische Perspektiven},
+  volume = {5},
+  number = {1},
+  year = {2022},
+  pages = {200--222},
+  doi = {https://doi.org/10.25364/17.5:2022.1.9}
+}
+```
+</details>
+
+---
+
+### [Rezensionen](#ren)
+**Authors:**
+- Dolezal, Eugen R / Gremsl, Thomas: *Rezension zu: Gronover, Matthias u.a. (Hg.): Religiöse Bildung in einer digitalisierten Welt. Beiträge zur Theorie und Praxis des Religionsunterrichts an berufsbildenden Schulen*, Münster: Waxmann 2021 (= Glaube – Wertebildung – Interreligiosität 23), in: *Österreichische Religionspädagogische Forum (ÖRF)* 31 / H. 1 (2023) 269–273.
+
+[DOI](https://doi.org/10.25364/17.3:2020.2.11) <details>
+<summary>Cite</summary>
+
+```bibtex
+@article{dolezal2022,
+  author = {Dolezal Eugen R. and Windegger, Moritz},
+  title = {Ausweg oder Irrweg? Ein Versuch über die Bedeutung von durch Technobilder gestützten Narrativen in der existenziellen Langeweile},
+  journal = {LIMINA - Grazer theologische Perspektiven},
+  volume = {5},
+  number = {1},
+  year = {2022},
+  pages = {200--222},
+  doi = {https://doi.org/10.25364/17.5:2022.1.9}
+}
+```
+</details>
+
+ # - block: collection
+  #  content:
+   #   title: Recent Publications
+    #  text: ""
+     # filters:
+      #  folders:
+       #   - publication
+        #exclude_featured: false
+    #design:
+     # view: citation
+#
+ # - block: collection
+  #  id: talks
+   # content:
+    #  title: Recent & Upcoming Talks
+     # filters:
+      #  folders:
+       #   - event
+    #design:
+     # view: article-grid
+     # columns: 1
 
   - block: collection
-    id: talks
+    id: blog
     content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-
-  - block: collection
-    id: news
-    content:
-      title: Recent News
+      title: Recent post
       subtitle: ""
       text: ""
       # Page type to display. E.g. post, talk, publication...
