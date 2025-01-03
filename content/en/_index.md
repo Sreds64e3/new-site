@@ -37,22 +37,22 @@ sections:
       title: "Scientific career | Academic background"
       subtitle: ""
       text: |-
-        ### 05/2023 – laufend  
+        ##### 05/2023 – laufend  
         Wissenschaftlicher Mitarbeiter des Projekts “MemorAI Styria” für das Institut für Ethik und Gesellschaftslehre an der Universität Graz
 
-        ### 12/2023 – laufend  
+        ##### 12/2023 – laufend  
         Universitätsassistent am Fachbereich Sozialethik an der Universität Wien
 
-        ### 09/2023 – 04/2024  
+        ##### 09/2023 – 04/2024  
         Wissenschaftlicher Mitarbeiter der EU-Studie “The protection of mental privacy in the area of neuroscience - societal, legal and ethical challenges” für das Institut für Ethik und Gesellschaftslehre an der Universität Graz
 
-        ### 07/2023 – 04/2024  
+        ##### 07/2023 – 04/2024  
         Projektmitarbeiter an der Professur für Health Care Ethics an der Universität Graz
 
-        ### 11/2022 – 04/2023  
+        ##### 11/2022 – 04/2023  
         Universitätsassistent am Institut für Ethik und Gesellschaftslehre an der Universität Graz
 
-        ### 2022  
+        ##### 2022  
         Diplomstudium der Katholischen Fachtheologie an der Katholisch-Theologischen Fakultät der Universität Graz Sponsion zum Mag.theol mit ausgezeichnetem Erfolg
     design:
       columns: "1"
