@@ -22,24 +22,36 @@ sections:
       css_class: dark
       background:
         color: black
-        image:
+        #image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+          #filename: stacked-peaks.svg
+          #filters:
+            #brightness: 1.0
+          #size: cover
+          #position: center
+          #parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'Scientific career | Academic background'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        05/2023 – laufend
+Wissenschaftlicher Mitarbeiter des Projekts “MemorAI Styria” für das Institut für Ethik und Gesellschaftslehre an der Universität Graz
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        12/2023 – laufend
+Universitätsassistent am Fachbereich Sozialethik an der Universität Wien
         
-        Please reach out to collaborate 😃
+        09/2023 – 04/2024
+Wissenschaftlicher Mitarbeiter der EU-Studie “The protection of mental privacy in the area of neuroscience - societal, legal and ethical challenges” für das Institut für Ethik und Gesellschaftslehre an der Universität Graz
+
+        07/2023 – 04/2024
+Projektmitarbeiter an der Professur für Health Care Ethics an der Universität Graz
+
+        11/2022 – 04/2023
+Universitätsassistent am Institut für Ethik und Gesellschaftslehre an der Universität Graz
+
+        2022
+Diplomstudium der Katholischen Fachtheologie an der Katholisch-Theologischen Fakultät der Universität Graz Sponsion zum Mag.theol mit ausgezeichnetem Erfolg
     design:
       columns: '1'
   - block: collection
